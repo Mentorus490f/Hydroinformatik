@@ -25,8 +25,8 @@ int main(int argc, char *argv[])
       u_old[x] = 0.25;
     }
     // Randbedingungen
-    u_old[n-1] = 0.1; // Wasserstand flußabwärts [m]
-    u_new[n-1] = 0.1; // Wasserstand flußabwärts [m]
+    u_old[n-1] = 0.35; // Wasserstand flußabwärts [m]
+    u_new[n-1] = 0.35; // Wasserstand flußabwärts [m]
 	int i = 0;
 	float error = 1.1*error_tolerance;
 	while(error>error_tolerance)
